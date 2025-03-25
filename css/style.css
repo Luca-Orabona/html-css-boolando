@@ -19,9 +19,22 @@ a {
     text-decoration: none;
 }
 
+.py-35 {
+    padding: 35px 0;
+}
+
 .align-center {
     text-align: center;
 }
+
+.size-0-8rem {
+    font-size: 0.8rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
 
 /* COMMON */
 .container {
@@ -34,8 +47,26 @@ a {
     display: flex;
 }
 
+.color-red {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* BACKGROUND */
 .bg-header {
     background-color: #FF6900;
+}
+
+.bg-red {
+    background-color: red;
+    color: white;
+}
+
+.bg-green {
+    background-color: green;
+    color: white;
+
 }
 
 
@@ -43,6 +74,7 @@ a {
 .header {
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .header-nav.flex {
@@ -72,19 +104,89 @@ a {
     height: 30px;
 }
 
-
-
 .header-symbol-action {
     text-align: right;
 }
 
 .header-symbol-action i {
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 
 .header-symbol-action i:hover {
     scale: 1.5;
 }
 
+
 /* MAIN */
+
+
+/* SECTION */
+.section-shop {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-33 {
+    width: calc((100% - 40px) / 3);
+}
+
+
+/* CARD */
+.card {
+    position: relative;
+}
+
+.card:hover .img-secondary {
+    display: block;
+}
+
+.card h2 {
+    font-size: 0.7rem;
+}
+
+.img-secondary {
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 40px;
+    background-color: white;
+    width: 45px;
+    text-align: center;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.container-discount {
+    position: absolute;
+    bottom: 80px;
+}
+
+.discount {
+    display: inline-block;
+    padding: 4px;
+    text-align: center;
+    width: 37px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.sustainable {
+    display: inline-block;
+    padding: 4px;
+    text-align: center;
+    width: 73px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+
+
 
