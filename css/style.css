@@ -58,6 +58,10 @@ a {
     background-color: #FF6900;
 }
 
+.bg-footer {
+    background-color: black;
+}
+
 .bg-red {
     background-color: red;
     color: white;
@@ -188,5 +192,45 @@ a {
 }
 
 
+/* FOOTER */
+.footer {
+    color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+}
+
+
+.space-between {
+    justify-content: space-between;
+}
+
+.information h4 {
+    margin-bottom: 10px;
+}
+
+.information a:hover {
+    text-decoration: underline;
+}
+
+
+/* ICON SOCIAL */
+
+.icon-social {
+    text-align: center;
+}
+
+.icon-social h5 {
+   margin-bottom: 10px;
+   padding-right: 5px;
+}
+
+.icon-social i {
+    margin-right: 15px;
+    padding-left: 5px;
+}
+
+.icon-social i:hover {
+    scale: 1.5;
+}
 
 
