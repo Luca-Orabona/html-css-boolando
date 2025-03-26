@@ -168,9 +168,13 @@ a {
     color: red;
 }
 
+.card-img {
+    position: relative;
+}
+
 .container-discount {
     position: absolute;
-    bottom: 80px;
+    bottom: 40px;
 }
 
 .discount {
